@@ -15,10 +15,10 @@ public class GestorServicios {
         lista.add(new RutaGastronomica("Ruta Chilota", 3, 3));
 
         lista.add(new PaseoLacustre("Crucero Llanquihue", 2, "Tucapel"));
-        lista.add(new PaseoLacustre("Paseo al Volcán", 3, "Lancha"));
+        lista.add(new PaseoLacustre("Paseo al Volcan", 3, "Lancha"));
 
         lista.add(new ExcursionCultural("Fuertes Coloniales", 5, "Fuerte Bulnes"));
-        lista.add(new ExcursionCultural("Puerto Varas Histórico", 4, "Casa Kuschel"));
+        lista.add(new ExcursionCultural("Puerto Varas Historico", 4, "Casa Kuschel"));
 
         return lista;
     }
