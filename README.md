@@ -1,17 +1,24 @@
-# Llanquihue-Tour-App-1
-# Sistema de Tours Llanquihue 
+# LlanquihueTourApp1
 
-Este es un proyecto en Java hecho para la gestión y búsqueda de tours turísticos. El programa funciona directamente en la consola (CMD).
+## Semana 6 - Creando jerarquías de clases con herencia simple
 
-# ¿Qué hace el programa?
+## Descripción
+En esta semana se implementó una jerarquía de clases para representar los distintos 
+servicios turísticos que ofrece la agencia Llanquihue Tour, aplicando herencia simple, 
+uso de super() y sobreescritura del método toString().
 
-* **Carga automática:** Lee los datos de los tours y guías directo desde un archivo de texto (`.txt`).
-* **Buscador interactivo:** Permite que el usuario escriba por teclado el ID de un tour para buscarlo al tiro.
-* **Seguridad contra errores:** Si el usuario se equivoca y escribe letras en vez de números, el programa no se cae gracias a un control de errores (`try-catch`).
-* **Uso de Clases:** Aplica el concepto de Composición (un Tour tiene un Guía, y un Guía tiene sus Datos de Contacto).
+## Clases creadas
 
-# Cómo correr el programa en el CMD
+- **ServicioTuristico**: Superclase con los atributos comunes nombre y duracionHoras.
+- **RutaGastronomica**: Subclase que agrega el atributo numeroDeParadas.
+- **PaseoLacustre**: Subclase que agrega el atributo tipoEmbarcacion.
+- **ExcursionCultural**: Subclase que agrega el atributo lugarHistorico.
+- **GestorServicios**: Clase encargada de crear instancias de prueba de cada subclase.
 
-Para ejecutar el proyecto por fuera de NetBeans, abre el CMD en la carpeta principal y escribe:
- 
-java -cp target\classes main.Main
+## Instrucciones para ejecutar Main
+
+1. Abrir el proyecto en NetBeans.
+2. Asegurarse de que el archivo tours.txt esté en la raíz del proyecto.
+3. Ejecutar la clase Main.java ubicada en el paquete main.
+4. El programa mostrará primero los tours existentes, luego pedirá un ID para buscar
+   y finalmente mostrará los servicios turísticos de la jerarquía implementada.
