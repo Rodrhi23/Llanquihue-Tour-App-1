@@ -1,0 +1,5 @@
+101; Volcan Osorno; 35000; 18543987-2; Shelby Iturra; Montanismo; +56912345678; Shelby@llanquihuetour.cl
+102; Saltos del Petrohue; 25000; 19283746-K; Paz Rodriguez; Flora y Fauna; ; Paz@llanquihuetour.cl
+103; Lago Todos los Santos; 40000; 15876342-9; Rodrigo Araneda; Navegacion; +56998765432; Rodrigosinroba.cl
+104; Frutillar y Puerto Octay; 30000; 20456123-5; Aylen Garay; Historia Local; +56955554444; Aylen@llanquihuetour.cl
+105; Parque Nacional Alerce Andino; 28000; 17654321-0; Luis Andaur; Trekking; +56977778888; luis@llanquihuetour.cl
