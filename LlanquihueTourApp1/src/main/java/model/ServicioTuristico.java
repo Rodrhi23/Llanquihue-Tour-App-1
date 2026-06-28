@@ -28,6 +28,6 @@ public class ServicioTuristico {
 
     @Override
     public String toString() {
-        return "Servicio: " + nombre + " | Duración: " + duracionHoras + " horas";
+        return "Servicio: " + nombre + " | Duracion: " + duracionHoras + " horas";
     }
 }
