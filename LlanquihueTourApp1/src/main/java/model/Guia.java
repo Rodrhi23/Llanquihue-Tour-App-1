@@ -39,7 +39,7 @@ public class Guia {
         }
     }
 
-    // Devolvimos el getter que faltaba
+    
     public String getEspecialidad() {
         return especialidad;
     }
