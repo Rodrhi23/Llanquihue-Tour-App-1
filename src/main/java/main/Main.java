@@ -5,6 +5,8 @@ import service.GestorDatos;
 import java.util.ArrayList;
 import java.util.InputMismatchException; 
 import java.util.Scanner; 
+import service.GestorServicios;
+import model.ServicioTuristico;
 
 public class Main {
     public static void main(String[] args) {
@@ -50,6 +52,14 @@ public class Main {
         }
         
         System.out.println("===========================================");
+        GestorServicios gestorServicios = new GestorServicios();
+        ArrayList<ServicioTuristico> servicios = gestorServicios.crearServicios();
+
+        System.out.println("\n=== SERVICIOS TURÍSTICOS ===");
+        for (ServicioTuristico s : servicios) {
+        System.out.println(s.toString());
+       }
+       System.out.println("============================");
         teclado.close(); 
     }
 }
