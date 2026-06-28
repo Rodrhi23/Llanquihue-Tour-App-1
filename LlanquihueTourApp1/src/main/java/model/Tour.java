@@ -55,7 +55,7 @@ public class Tour {
 
     @Override
     public String toString() {
-        String infoGuia = (guiaAsignado != null) ? guiaAsignado.toString() : "Sin guía asignado";
+        String infoGuia = (guiaAsignado != null) ? guiaAsignado.toString() : "Sin guia asignado";
         return "ID: " + id + " | Tour: " + nombre + " | Precio: $" + precio + " | " + infoGuia;
     }
 }
